@@ -82,6 +82,24 @@
                 android:value="com.adafruit.bluefruit.le.connect.app.MainActivity" />
         </activity>
         <activity
+            android:name=".app.TextLoopActivity"
+            android:label="@string/title_activity_textloop"
+            android:screenOrientation="fullUser"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.adafruit.bluefruit.le.connect.app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".app.UrlLoopActivity"
+            android:label="@string/title_activity_urlloop"
+            android:screenOrientation="fullUser"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.adafruit.bluefruit.le.connect.app.MainActivity" />
+        </activity>
+        <activity
             android:name=".app.PinIOActivity"
             android:label="@string/title_activity_pin_io"
             android:screenOrientation="fullUser">

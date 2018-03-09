@@ -52,6 +52,8 @@
     <string name="scan_connectservice_controller">Controller</string>
     <string name="scan_connectservice_beacon">Beacon</string>
     <string name="scan_connectservice_neopixel">Neopixel</string>
+    <string name="scan_connectservice_textloop">Text Loop</string>
+    <string name="scan_connectservice_urlloop">Url Loop</string>
     <string name="scan_softwareupdate_title">Update available</string>
     <string name="scan_softwareupdate_messageformat">Software version %s is available</string>
     <string name="scan_bootloaderandfirmwareupdate_messageformat">Software version %1$s and Bootloader version %2$s are available. This is a two-step process: bootloader will be updated first and firmware the next time you connect to the device</string>
@@ -149,6 +151,9 @@
     <string name="uart_receivedbytes_format">Received: %d bytes</string>
 
     <string name="uart_text_dataomitted">(Previous data omitted to improve performance…)</string>
+
+    <string name="title_activity_textloop">TextLoop</string>
+    <string name="title_activity_urlloop">UrlLoop</string>
 
     <!-- PinIO Activity -->
     <string name="title_activity_pin_io">PinIO</string>
